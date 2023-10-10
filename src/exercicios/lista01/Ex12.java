@@ -14,7 +14,7 @@ public class Ex12 {
     	System.out.println("Digite uma distância em milhas: ");
     	m = scan.nextDouble();
     	
-    	km = 1.6 * m;
+    	km = 1.61 * m;
     	
     	System.out.println("A distância em km/h é: " + km);
     	
