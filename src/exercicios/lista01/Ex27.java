@@ -8,8 +8,8 @@ public class Ex27 {
 		Scanner scan = new Scanner(System.in);
 
 		double h;
-        int m;
-        
+		int m;
+
 		System.out.println("Digite a área em hectares: ");
 		h = Double.parseDouble(scan.nextLine());
 		m = (int) h * 10000;
