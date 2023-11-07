@@ -14,7 +14,7 @@ public class Ex33 {
 		l = scan.nextInt();
 		a = l * l;
 
-		System.out.println("A área do quadrado é: %.2f" + a);
+		System.out.println("A área do quadrado é: " + a);
 
 		scan.close();
 
