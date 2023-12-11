@@ -8,18 +8,17 @@ public class Ex03 {
 
 		Scanner scan = new Scanner(System.in);
 
-		int soma = 0;
+		double numero = 0, raizQuadrada;
 
-		for (int i = 0; i < 3; i++) {
+		System.out.println("Digite um número real: ");
+		numero = Double.parseDouble(scan.nextLine());
 
-			System.out.println("Digite o " + (i + 1) + " valor : ");
-			int numero = scan.nextInt();
-
-			soma += numero;
-
+		if (numero > 0.0) {
+			raizQuadrada = Math.sqrt(numero);
+			System.out.printf("A raiz quadrada de %.2f é aproximadamente %.4f%n", numero, raizQuadrada);
+		} else {
+			System.out.println("O número " + numero + " ao quadrado é " + (numero * numero));
 		}
-
-		System.out.println("A soma de todos os valores digitados é: " + soma);
 
 		scan.close();
 	}
