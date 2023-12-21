@@ -22,7 +22,7 @@ public class Ex10 {
 			System.out.printf("Seu peso ideal é  %.2f kg", pesoIdeal);
 		} else {
 			pesoIdeal = (62.1 * h) - 44.7;
-			System.out.println("Seu peso ideal é " + pesoIdeal);
+			System.out.printf("Seu peso ideal é  %.2f kg", pesoIdeal);
 		}
 
 		scan.close();
